@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9AE6B471CC8DE4B0085D95D /* NSString+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AE6B461CC8DE4B0085D95D /* NSString+HMAC.m */; };
 		D9D9B82F1CC4D6F600157D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B82E1CC4D6F600157D53 /* main.m */; };
 		D9D9B8321CC4D6F600157D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8311CC4D6F600157D53 /* AppDelegate.m */; };
 		D9D9B8351CC4D6F600157D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8341CC4D6F600157D53 /* ViewController.m */; };
 		D9D9B8381CC4D6F600157D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D9B8361CC4D6F600157D53 /* Main.storyboard */; };
 		D9D9B83A1CC4D6F600157D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D9B8391CC4D6F600157D53 /* Assets.xcassets */; };
 		D9D9B83D1CC4D6F600157D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D9B83B1CC4D6F600157D53 /* LaunchScreen.storyboard */; };
+		D9D9B8471CC4D76700157D53 /* YYGetSecurityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8461CC4D76700157D53 /* YYGetSecurityTool.m */; };
+		D9D9B8571CC4D7D000157D53 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B84A1CC4D7D000157D53 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9D9B8581CC4D7D000157D53 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B84C1CC4D7D000157D53 /* NSData+Base64.m */; };
+		D9D9B8591CC4D7D000157D53 /* NSData+NSData_AES.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B84E1CC4D7D000157D53 /* NSData+NSData_AES.m */; };
+		D9D9B85A1CC4D7D000157D53 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8501CC4D7D000157D53 /* NSString+Base64.m */; };
+		D9D9B85C1CC4D7D000157D53 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8541CC4D7D000157D53 /* RSA.m */; };
+		D9D9B85D1CC4D7D000157D53 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9B8561CC4D7D000157D53 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9AE6B451CC8DE4B0085D95D /* NSString+HMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMAC.h"; sourceTree = "<group>"; };
+		D9AE6B461CC8DE4B0085D95D /* NSString+HMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMAC.m"; sourceTree = "<group>"; };
 		D9D9B82A1CC4D6F600157D53 /* YYGetSecurityTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYGetSecurityTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D9B82E1CC4D6F600157D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9D9B8301CC4D6F600157D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,20 @@
 		D9D9B8391CC4D6F600157D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9D9B83C1CC4D6F600157D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9D9B83E1CC4D6F600157D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D9B8451CC4D76700157D53 /* YYGetSecurityTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGetSecurityTool.h; sourceTree = "<group>"; };
+		D9D9B8461CC4D76700157D53 /* YYGetSecurityTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGetSecurityTool.m; sourceTree = "<group>"; };
+		D9D9B8491CC4D7D000157D53 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		D9D9B84A1CC4D7D000157D53 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		D9D9B84B1CC4D7D000157D53 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		D9D9B84C1CC4D7D000157D53 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		D9D9B84D1CC4D7D000157D53 /* NSData+NSData_AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSData_AES.h"; sourceTree = "<group>"; };
+		D9D9B84E1CC4D7D000157D53 /* NSData+NSData_AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSData_AES.m"; sourceTree = "<group>"; };
+		D9D9B84F1CC4D7D000157D53 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		D9D9B8501CC4D7D000157D53 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		D9D9B8531CC4D7D000157D53 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		D9D9B8541CC4D7D000157D53 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		D9D9B8551CC4D7D000157D53 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		D9D9B8561CC4D7D000157D53 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 		D9D9B82C1CC4D6F600157D53 /* YYGetSecurityTool */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9B8441CC4D73000157D53 /* SecurityTools */,
 				D9D9B8301CC4D6F600157D53 /* AppDelegate.h */,
 				D9D9B8311CC4D6F600157D53 /* AppDelegate.m */,
 				D9D9B8331CC4D6F600157D53 /* ViewController.h */,
@@ -77,6 +102,37 @@
 				D9D9B82E1CC4D6F600157D53 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D9B8441CC4D73000157D53 /* SecurityTools */ = {
+			isa = PBXGroup;
+			children = (
+				D9D9B8451CC4D76700157D53 /* YYGetSecurityTool.h */,
+				D9D9B8461CC4D76700157D53 /* YYGetSecurityTool.m */,
+				D9D9B8481CC4D7C100157D53 /* Tools */,
+			);
+			path = SecurityTools;
+			sourceTree = "<group>";
+		};
+		D9D9B8481CC4D7C100157D53 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D9D9B8491CC4D7D000157D53 /* GTMBase64.h */,
+				D9D9B84A1CC4D7D000157D53 /* GTMBase64.m */,
+				D9D9B84B1CC4D7D000157D53 /* NSData+Base64.h */,
+				D9D9B84C1CC4D7D000157D53 /* NSData+Base64.m */,
+				D9D9B84D1CC4D7D000157D53 /* NSData+NSData_AES.h */,
+				D9D9B84E1CC4D7D000157D53 /* NSData+NSData_AES.m */,
+				D9D9B84F1CC4D7D000157D53 /* NSString+Base64.h */,
+				D9D9B8501CC4D7D000157D53 /* NSString+Base64.m */,
+				D9D9B8531CC4D7D000157D53 /* RSA.h */,
+				D9D9B8541CC4D7D000157D53 /* RSA.m */,
+				D9AE6B451CC8DE4B0085D95D /* NSString+HMAC.h */,
+				D9AE6B461CC8DE4B0085D95D /* NSString+HMAC.m */,
+				D9D9B8551CC4D7D000157D53 /* SecurityUtil.h */,
+				D9D9B8561CC4D7D000157D53 /* SecurityUtil.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +166,7 @@
 				TargetAttributes = {
 					D9D9B8291CC4D6F600157D53 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 69GEUC87TH;
 					};
 				};
 			};
@@ -149,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D9B85D1CC4D7D000157D53 /* SecurityUtil.m in Sources */,
 				D9D9B8351CC4D6F600157D53 /* ViewController.m in Sources */,
 				D9D9B8321CC4D6F600157D53 /* AppDelegate.m in Sources */,
+				D9AE6B471CC8DE4B0085D95D /* NSString+HMAC.m in Sources */,
+				D9D9B8591CC4D7D000157D53 /* NSData+NSData_AES.m in Sources */,
+				D9D9B8571CC4D7D000157D53 /* GTMBase64.m in Sources */,
+				D9D9B85A1CC4D7D000157D53 /* NSString+Base64.m in Sources */,
+				D9D9B85C1CC4D7D000157D53 /* RSA.m in Sources */,
+				D9D9B8471CC4D76700157D53 /* YYGetSecurityTool.m in Sources */,
 				D9D9B82F1CC4D6F600157D53 /* main.m in Sources */,
+				D9D9B8581CC4D7D000157D53 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +328,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69GEUC87TH;
 				INFOPLIST_FILE = YYGetSecurityTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qqdenglu.YYGetSecurityTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69GEUC87TH;
 				INFOPLIST_FILE = YYGetSecurityTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qqdenglu.YYGetSecurityTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +369,7 @@
 				D9D9B8431CC4D6F600157D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
