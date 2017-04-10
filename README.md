@@ -1,0 +1,2 @@
+# YYGetSecurityTool
+数据加密工具：通过openId使用HMAC算法进行M5加密作为Key，使用AES256对称加密刷法，进行加密。考虑到加密的安全等级，可以适当对Key添加时间戳。
